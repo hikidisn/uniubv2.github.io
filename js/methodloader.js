@@ -26,7 +26,7 @@ if (window.location.pathname == "/pages/methods" || window.location.pathname == 
 
 if (window.location.pathname == "/pages/method" || window.location.pathname == "/pages/method.html"){
     let s = document.createElement("script");
-    s.src = filesURL + "/js/methodmanager.js"
+    s.src = filesURL + "/js/methodloader.js"
     document.body.append(s)
 }
 
